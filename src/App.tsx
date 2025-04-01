@@ -1111,7 +1111,7 @@ function App() {
                             {/* Photo Container */}
                             <div className="relative bg-gradient-to-br from-purple-500/5 to-pink-500/5 dark:from-purple-500/10 dark:to-pink-500/10 border border-purple-200/20 dark:border-purple-500/20 rounded-xl overflow-hidden">
                               <img
-                                src="/avatar.jpg"
+                                src="/avtar.png"
                                 alt="Himanshu"
                                 className="w-10 h-10 object-cover"
                               />
