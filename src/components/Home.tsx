@@ -234,7 +234,7 @@ export const Home: React.FC<HomeProps> = ({
           transition={{ duration: isMobile ? 0.4 : 0.8, delay: isMobile ? 0.2 : 0.4 }}
           className="text-5xl font-bold text-gray-900 dark:text-white text-center mb-4"
         >
-          Weather<span className="text-purple-400">App</span>
+          Jal<span className="text-purple-400">Vani</span>
         </motion.h1>
         
         <motion.p
