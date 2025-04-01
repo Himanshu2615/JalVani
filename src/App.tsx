@@ -1099,7 +1099,7 @@ function App() {
                       <div className="flex flex-col-reverse items-center gap-6 md:flex-row md:justify-between">
                         {/* Copyright */}
                         <div className="text-gray-500 dark:text-white/50 text-sm text-center md:text-right">
-                          © {new Date().getFullYear()} Weather ForeCasts. All Rights Reserved
+                          © {new Date().getFullYear()} JalVani. All Rights Reserved
                         </div>
 
                         {/* Author Info with Photo */}
