@@ -50,7 +50,7 @@ export const Home: React.FC<HomeProps> = ({
         preload="auto"
         className="absolute inset-0 w-full h-full object-cover opacity-70 dark:opacity-40"
       >
-        <source src="/assets/weather-bg.mp4" type="video/mp4" />
+        <source src="https://uyoorrttwwqggv57.public.blob.vercel-storage.com/weather-bg-J5IV8UuRHpJyXZ6AMsDBY488aGEW0S.mp4" type="video/mp4" />
       </video>
 
       {/* Dark Overlay */}
