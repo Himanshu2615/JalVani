@@ -68,7 +68,7 @@
       #preloader img {
         width: 150px;
         height: auto;
-        animation: fadeIn 2.5s ease-in-out infinite alternate;
+        animation: fadeIn 1.5s ease-in-out infinite alternate;
       }
 
       @keyframes fadeIn {
@@ -113,7 +113,7 @@
     }
     </script>
   </head>
-  <body onload="document.body.classList.add('loaded')">
+  <body onload="initializePreloader()">
     <!-- Preloader -->
     <div id="preloader">
       <img src="/Hicon.png" alt="Loading...">
@@ -123,5 +123,15 @@
     <div id="root"></div>
 
     <script type="module" src="/src/main.tsx"></script>
+
+    <!-- Preloader Logic -->
+    <script>
+      function initializePreloader() {
+        // Add delay for preloader visibility
+        setTimeout(function() {
+          document.body.classList.add('loaded');
+        }, 3000); // Adjust time (in ms) to control how long preloader stays
+      }
+    </script>
   </body>
 </html>
